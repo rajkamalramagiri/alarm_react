@@ -1,9 +1,17 @@
-import React from 'react'
+// src/App.js
+import React from 'react';
+import AlarmClock from './components/AlarmClock';
+import AlarmComponent from './components/Alarm';
+import AlarmWithMultipleDates from './components/MultipleAlarm';
 
-function App() {
+const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      {/* <AlarmClock /> */}
+      {/* <AlarmComponent /> */}
+      <AlarmWithMultipleDates/>
+    </div>
+  );
+};
 
-export default App
+export default App;
